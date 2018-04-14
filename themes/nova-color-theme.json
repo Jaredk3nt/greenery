@@ -22,7 +22,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#6d7770"
 			}
 		},
 		{
@@ -62,7 +62,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#507a5f"
 			}
 		},
 		{
