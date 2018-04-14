@@ -22,7 +22,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#6d7770"
+				"foreground": "#4e5350"
 			}
 		},
 		{
@@ -32,16 +32,27 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#e1f3e7"
+			}
+		},
+		{
+			"name": "Python self",
+			"scope": [
+				"variable.language.special.self.python"
+			],
+			"settings": {
+				"foreground": "#ff7a68",
+				"fontStyle": ""
 			}
 		},
 		{
 			"name": "Colors",
 			"scope": [
-				"constant.other.color"
+				"constant.other.color",
+				"constant.other.color.rgb-value.hex.css"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#c8dbbc"
 			}
 		},
 		{
@@ -51,7 +62,7 @@
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#f15541"
 			}
 		},
 		{
@@ -62,7 +73,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#507a5f"
+				"foreground": "#689e6c"
 			}
 		},
 		{
@@ -82,7 +93,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#c8dbbc"
 			}
 		},
 		{
@@ -93,7 +104,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#f88659"
 			}
 		},
 		{
@@ -106,7 +117,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#ffcb6b"
 			}
 		},
 		{
@@ -141,7 +152,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#f7ab6c"
 			}
 		},
 		{
@@ -157,7 +168,7 @@
 			],
 			"settings": {
 				"fontStyle": "normal",
-				"foreground": "#C3E88D"
+				"foreground": "#9ab49a"
 			}
 		},
 		{
@@ -173,7 +184,8 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#dd914a",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -196,7 +208,26 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#d8ad5e"
+			}
+		},
+		{
+			"name": "CSS values",
+			"scope": [
+				"support.constant.property-value.css",
+				"constant.numeric.css"
+			],
+			"settings": {
+				"foreground": "#fce7cf"
+			}
+		},
+		{
+			"name": "SCSS Variable",
+			"scope": [
+				"variable.scss"
+			],
+			"settings": {
+				"foreground": "#ff7a68"
 			}
 		},
 		{
@@ -266,7 +297,7 @@
 				"entity.other.attribute-name.class"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#689e6c"
 			}
 		},
 		{
