@@ -1,9 +1,20 @@
 {
     "name": "greenery",
     "displayName": "Greenery",
-    "description": "",
+    "description": "A dark based theme for people who wish they were in a forest, but still want to read their code",
     "version": "0.0.1",
+    "author": "Jared Jones [@jaredkent]",
     "publisher": "jaredkent",
+    "galleryBanner": {
+        "color": "#83a06c",
+        "theme": "dark"
+    },
+    "icon": "logo.png",
+    "homepage": "https://github.com/Jaredk3nt/nova-theme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Jaredk3nt/nova-theme"
+    },
     "engines": {
         "vscode": "^1.22.0"
     },
