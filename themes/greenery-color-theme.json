@@ -2,8 +2,26 @@
     "name": "greenery",
     "type": "dark",
     "colors": {
-        "editor.background": "#1e1e1e",
-        "editor.foreground": "#d4d4d4"
+        "editor.background": "#1f1f1f",
+        "editor.foreground": "#d4d4d4",
+        "titleBar.activeBackground": "#1f1f1f",
+
+        "activityBar.background": "#1f1f1f",
+        "activityBar.foreground": "#fdfdfd",
+        "activityBarBadge.background": "#507a5f",
+
+        "sideBar.background": "#252525",
+        "sideBarTitle.foreground": "#507a5f",
+        "sideBarSectionHeader.background": "#1f1f1f",
+
+        "editorGroupHeader.tabsBackground": "#222",
+        "tab.activeBackground": "#1f1f1f",
+        "tab.inactiveBackground": "#222",
+        "tab.border": "#1f1f1f",
+        "tab.activeBorder": "#507a5f",
+        "tab.hoverBackground": "#507a5f",
+
+        "statusBar.background": "#455845"
     },
     "tokenColors": [
         {
@@ -71,7 +89,8 @@
                 "storage.type",
                 "storage.modifier",
                 "keyword.control.flow.python",
-                "keyword.control.flow.js"
+                "keyword.control.flow.js",
+                "keyword.control.loop.js"
             ],
             "settings": {
                 "foreground": "#83a06c"
@@ -120,6 +139,16 @@
             ],
             "settings": {
                 "foreground": "#ebc17a",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Property values",
+            "scope": [
+                "variable.other.property.js"
+            ],
+            "settings": {
+                "foreground": "#b06698",
                 "fontStyle": "italic"
             }
         },
@@ -188,7 +217,7 @@
             ],
             "settings": {
                 "foreground": "#dd914a",
-                "fontStyle": "bold"
+                "fontStyle": ""
             }
         },
         {
