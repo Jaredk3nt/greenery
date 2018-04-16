@@ -1,6 +1,6 @@
 {
-    "name": "nova",
-    "displayName": "Nova",
+    "name": "greenery",
+    "displayName": "Greenery",
     "description": "",
     "version": "0.0.1",
     "publisher": "jaredkent",
@@ -13,9 +13,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "nova",
+                "label": "greenery",
                 "uiTheme": "vs-dark",
-                "path": "./themes/nova-color-theme.json"
+                "path": "./themes/greenery-color-theme.json"
             }
         ]
     }
