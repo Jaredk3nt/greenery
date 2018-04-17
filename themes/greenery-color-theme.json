@@ -53,13 +53,34 @@
             }
         },
         {
-            "name": "Python self",
+            "name": "Object properties",
             "scope": [
+                "variable.other.object.property.js"
+            ],
+            "settings": {
+                "foreground": "#769baa",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "function name",
+            "scope": [
+                "entity.name.function.js"
+            ],
+            "settings": {
+                "foreground": "#8eac74",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "This",
+            "scope": [
+                "variable.language.this.js",
                 "variable.language.special.self.python"
             ],
             "settings": {
-                "foreground": "#e67c6f",
-                "fontStyle": "italic"
+                "foreground": "#76a4aa",
+                "fontStyle": "bold"
             }
         },
         {
@@ -216,7 +237,7 @@
                 "support.type.sys-types"
             ],
             "settings": {
-                "foreground": "#dd914a",
+                "foreground": "#c78547",
                 "fontStyle": ""
             }
         },
