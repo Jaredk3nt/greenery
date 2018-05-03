@@ -10,7 +10,7 @@
         "activityBar.foreground": "#fdfdfd",
         "activityBarBadge.background": "#507a5f",
 
-        "sideBar.background": "#252525",
+        "sideBar.background": "#252725",
         "sideBarTitle.foreground": "#507a5f",
         "sideBarSectionHeader.background": "#1f1f1f",
 
@@ -21,7 +21,9 @@
         "tab.activeBorder": "#507a5f",
         "tab.hoverBackground": "#507a5f",
 
-        "statusBar.background": "#455845"
+        "statusBar.background": "#455845",
+
+        "editorLineNumber.foreground": "#535e4a"
     },
     "tokenColors": [
         {
@@ -818,8 +820,9 @@
             "name": "HTML Tags",
             "scope": [
                 "entity.name.tag.block.any.html",
-                "entity.name.tag.structure.any.html"
-               
+                "entity.name.tag.structure.any.html",
+                "entity.name.tag.open.jsx",
+                "entity.name.tag.close.jsx"
             ],
             "settings": {
                 "foreground": "#83a06c",
@@ -840,7 +843,8 @@
         {
             "name": "Vue Html Attr",
             "scope": [
-                "entity.other.attribute-name.html"
+                "entity.other.attribute-name.html",
+                "entity.other.attribute-name.jsx"
             ],
             "settings": {
                 "foreground": "#e4c675",
