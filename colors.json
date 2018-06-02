@@ -1,9 +1,19 @@
 {
     "green": "#83a06c",
-    "purple": "#b06698",
-    "blue": "#94b0c4",
+    "black": "#1f1f1f",
+    "red": "#f07178",
     "yellow": "#ebc17a",
+    "blue": "",
+    "magenta": "#b06698",
+    "cyan": "#9ac2be",
     "white": "#e1f3e7",
-    "comment": "#4e5350",
-    "error": "#f15541"
+
+    "purple": "#c792ea",
+    "orange": "#c78547",
+
+    "green-dark": "#5b6e4b",
+    "green-light": "#8eac74",
+    "green-very-light": "#9ab49a",
+    "grey-comment": "#4e5350"
 }
+
