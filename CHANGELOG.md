@@ -6,7 +6,38 @@ If there are any changes, bugs, or languages you would like added to this theme,
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2018-06-2
+### Added
+- Better React coloring
+- Colorized the gitDecorations
+- Fixed miscoloring bug on the statusBar
+
+### Changed
+- The format of how the theme works to make extending the theme easier
+- Overall color scheme to fill a stricter set of colors to make it easier to adapt the theme to other places and extend
+```
+{
+    "green": "#83a06c",
+    "black": "#1f1f1f",
+    "red": "#f07178",
+    "yellow": "#ebc17a",
+    "blue": "#769baa",
+    "magenta": "#b06698",
+    "cyan": "#9ac2be",
+    "white": "#e1f3e7",
+    "purple": "#bb90d8",
+    "orange": "#c78547",
+    "green-dark": "#667c55",
+    "green-light": "#adc586",
+    "green-very-light": "#afcaaf",
+    "grey-comment": "#4e5350"
+}
+```
+- Made the editor colors more consistent
+
 ## [0.2.1] - 2018-04-17
 ### Added
 - Better Vue and JS colors
+
+
 

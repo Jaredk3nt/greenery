@@ -3,17 +3,15 @@
     "black": "#1f1f1f",
     "red": "#f07178",
     "yellow": "#ebc17a",
-    "blue": "",
+    "blue": "#769baa",
     "magenta": "#b06698",
     "cyan": "#9ac2be",
     "white": "#e1f3e7",
-
-    "purple": "#c792ea",
+    "purple": "#bb90d8",
     "orange": "#c78547",
-
-    "green-dark": "#5b6e4b",
-    "green-light": "#8eac74",
-    "green-very-light": "#9ab49a",
+    "green-dark": "#667c55",
+    "green-light": "#adc586",
+    "green-very-light": "#afcaaf",
     "grey-comment": "#4e5350"
 }
 
