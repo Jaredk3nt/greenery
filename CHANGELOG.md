@@ -6,6 +6,17 @@ If there are any changes, bugs, or languages you would like added to this theme,
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2018-06-3
+### Added
+- BETA light theme (greenery-light)
+    - Updated color scheme to be visible in light mode
+    - Colorized light theme editor preferences
+    - NOT FULLY TESTED
+
+### Changed
+- Highlight colors on greenery
+- Updates to some HTML & CSS coloring
+
 ## [1.0.1] - 2018-06-2
 ### Added
 - Better React coloring
