@@ -6,6 +6,10 @@ If there are any changes, bugs, or languages you would like added to this theme,
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2018-06-3
+### Changed
+- Remaking markdown colorizing that was accidentally removed in the 1.0.0 release
+
 ## [1.1.0] - 2018-06-3
 ### Added
 - BETA light theme (greenery-light)

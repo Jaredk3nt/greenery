@@ -89,7 +89,9 @@
                 "entity.name.tag.reference.scss",
                 "support.constant.property-value.css",
                 "constant.numeric.css",
-                "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+                "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+                "string.other.link.title.markdown",
+                "string.other.link.description.markdown"
             ],
             "settings": {
                 "foreground": "#ebc17a"
@@ -113,7 +115,8 @@
                 "entity.name.tag.close.jsx",
                 "meta.property-name.css",
                 "entity.name.tag.inline.any.html",
-                "entity.name.tag.html"
+                "entity.name.tag.html",
+                "entity.name.section.markdown"
             ],
             "settings": {
                 "foreground": "#83a06c"
@@ -129,7 +132,8 @@
                 "variable.language.this.js",
                 "variable.language.self.js",
                 "meta.function.parameters.js",
-                "variable.parameter"
+                "variable.parameter",
+                "markup.fenced_code.block.markdown"
             ],
             "settings": {
                 "foreground": "#769baa"
@@ -145,7 +149,8 @@
                 "support.class.component",
                 "entity.name.type.class.python",
                 "meta.class.python",
-                "entity.name.type.js"
+                "entity.name.type.js",
+                "string.other.link.description.title.markdown"
             ],
             "settings": {
                 "foreground": "#b06698"
@@ -159,7 +164,10 @@
                 "string.regexp",
                 "constant.character.escape",
                 "support.class.builtin.js",
-                "support.class.builtin"
+                "support.class.builtin",
+                "markup.italic.markdown",
+                "markup.bold.markdown",
+                "fenced_code.block.language"
             ],
             "settings": {
                 "foreground": "#9ac2be"
@@ -217,7 +225,9 @@
                 "storage.type.function",
                 "entity.name.tag.script.html",
                 "entity.name.tag.template.html",
-                "entity.name.tag.style.html"
+                "entity.name.tag.style.html",
+                "markup.underline.link.markdown",
+                "markup.underline.link.image.markdown"
             ],
             "settings": {
                 "foreground": "#667c55"
@@ -270,7 +280,12 @@
             "name": "Comment",
             "scope": [
                 "comment",
-                "punctuation.definition.comment"
+                "punctuation.definition.comment",
+                "punctuation.definition.heading.markdown",
+                "punctuation.definition.markdown",
+                "punctuation.definition.bold.markdown",
+                "punctuation.definition.italic.markdown",
+                "meta.separator.markdown"
             ],
             "settings": {
                 "fontStyle": "italic",
