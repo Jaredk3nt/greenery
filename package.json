@@ -27,6 +27,11 @@
                 "label": "greenery",
                 "uiTheme": "vs-dark",
                 "path": "./themes/greenery-color-theme.json"
+            },
+            {
+                "label": "greenery light",
+                "uiTheme": "vs",
+                "path": "./themes/greenery-light-color-theme.json"
             }
         ]
     }

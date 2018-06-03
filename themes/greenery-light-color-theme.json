@@ -1,44 +1,43 @@
 {
     "name": "greenery",
-    "type": "dark",
+    "type": "light",
     "colors": {
-        "editor.background": "#1f1f1f",
-        "editor.foreground": "#d4d4d4",
-        "titleBar.activeBackground": "#1f1f1f",
+        "editor.background": "#fefefe",
+        "editor.foreground": "#1e1e1e",
+        "titleBar.activeBackground": "#ffffff",
 
-        "activityBar.background": "#1f1f1f",
-        "activityBar.foreground": "#fdfdfd",
-        "activityBarBadge.background": "#667c55",
-        "activityBar.border": "#1c1d1c",
+        "activityBar.background": "#667c55",
+        "activityBar.foreground": "#ffffff",
+        "activityBarBadge.background": "#41463d",
 
-        "sideBar.background": "#1f1f1f",
+        "sideBar.background": "#f1f1f1",
         "sideBarTitle.foreground": "#667c55",
-        "sideBarSectionHeader.background": "#1f1f1f",
+        "sideBarSectionHeader.background": "#ffffff",
 
-        "editorGroupHeader.tabsBackground": "#1c1d1c",
-        "tab.activeBackground": "#1f1f1f",
-        "tab.inactiveBackground": "#1c1d1c",
-        "tab.border": "#1f1f1f",
-        "tab.activeBorder": "#667c55",
-        "tab.hoverBackground": "#667c55",
+        "editorGroupHeader.tabsBackground": "#f1f1f1",
+        "tab.activeBackground": "#83a06c",
+        "tab.activeForeground": "#ffffff",
+        "tab.inactiveBackground": "#dfdfdf",
+        "tab.inactiveForeground": "#1e1e1e",
+        "tab.border": "#ffffff00",
+        "tab.hoverBackground": "#9ebe84",
 
-        "statusBar.background": "#4c5c3f",
-        "statusBar.noFolderBackground": "#4c5c3f",
-        "statusBar.debuggingBackground": "#ebc17a",
+        "statusBar.background": "#1e1e1e",
+        "statusBar.noFolderBackground": "#1e1e1e",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.debuggingBackground": "#b06698",
         "statusBar.debuggingForeground": "#1f1f1f",
 
-        "editorLineNumber.foreground": "#41463d",
+        "editorLineNumber.foreground": "#849e6f",
 
-        "gitDecoration.modifiedResourceForeground": "#ebc17a",
+        "gitDecoration.modifiedResourceForeground": "#d6b24f",
         "gitDecoration.untrackedResourceForeground": "#769baa",
         "gitDecoration.conflictingResourceForeground": "#f07178",
         "gitDecoration.deletedResourceForeground": "#bb90d8",
         "gitDecoration.ignoredResourceForeground": "#4e5350",
 
         "editor.wordHighlightBackground": "#83a06c33",
-        "editor.selectionBackground":"#83a06c33",
-        "editor.findMatchBackground":"#ebc17a33",
-        "editor.findMatchHighlightBackground":"#afdf6333"
+        "editor.selectionBackground":"#83a06c33"
     },
     "tokenColors": [
         {
@@ -52,7 +51,14 @@
         {
             "name": "Black",
             "scope": [
-
+                "variable",
+                "string constant.other.placeholder",
+                "meta.function-call.arguments.python",
+                "variable.other.readwrite",
+                "variable.other.object",
+                "expression.embedded.vue",
+                "string.unquoted",
+                "JSXNested"
             ],
             "settings": {
                 "foreground": "#1f1f1f"
@@ -92,7 +98,7 @@
                 "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "#ebc17a"
+                "foreground": "#65bb62"
             }
         },
         {
@@ -109,14 +115,16 @@
                 "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
                 "entity.name.tag.block.any.html",
                 "entity.name.tag.structure.any.html",
+                "entity.name.tag.inline.any.html",
+                "entity.name.tag.html",
                 "entity.name.tag.open.jsx",
                 "entity.name.tag.close.jsx",
+                "support.type.property-name.css",
                 "meta.property-name.css",
-                "entity.name.tag.inline.any.html",
-                "entity.name.tag.html"
+                "entity.name.tag.css"
             ],
             "settings": {
-                "foreground": "#83a06c"
+                "foreground": "#526e39"
             }
         },
         {
@@ -124,7 +132,6 @@
             "scope": [
                 "meta.class-method.js entity.name.function.js",
                 "variable.function.constructor",
-                "entity.name.tag.css",
                 "entity.other.attribute-name.pseudo-class.css",
                 "variable.language.this.js",
                 "variable.language.self.js",
@@ -132,7 +139,7 @@
                 "variable.parameter"
             ],
             "settings": {
-                "foreground": "#769baa"
+                "foreground": "#4096b8"
             }
         },
         {
@@ -144,8 +151,7 @@
                 "entity.name.class",
                 "support.class.component",
                 "entity.name.type.class.python",
-                "meta.class.python",
-                "entity.name.type.js"
+                "meta.class.python"
             ],
             "settings": {
                 "foreground": "#b06698"
@@ -155,6 +161,7 @@
             "name": "Cyan",
             "scope": [
                 "support.type",
+                "support.type.object.console.js",
                 "source.sass keyword.control",
                 "string.regexp",
                 "constant.character.escape",
@@ -168,14 +175,7 @@
         {
             "name": "White",
             "scope": [
-                "variable",
-                "string constant.other.placeholder",
-                "meta.function-call.arguments.python",
-                "variable.other.readwrite",
-                "variable.other.object",
-                "expression.embedded.vue",
-                "string.unquoted",
-                "JSXNested"
+                
             ],
             "settings": {
                 "foreground": "#e1f3e7"
@@ -220,7 +220,7 @@
                 "entity.name.tag.style.html"
             ],
             "settings": {
-                "foreground": "#667c55"
+                "foreground": "#395723"
             }
         },
         {
@@ -247,11 +247,10 @@
                 "entity.other.inherited-class",
                 "markup.heading",
                 "markup.inserted.git_gutter",
-                "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
-                "support.type.property-name.css"
+                "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
             ],
             "settings": {
-                "foreground": "#adc586"
+                "foreground": "#6a8d50"
             }
         },
         {
@@ -263,7 +262,7 @@
                 "string.quoted.module.js"
             ],
             "settings": {
-                "foreground": "#afcaaf"
+                "foreground": "#87aa87"
             }
         },
         {
@@ -274,7 +273,7 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#4e5350"
+                "foreground": "#a7b69f"
             }
         },
 
@@ -304,7 +303,7 @@
 
             ],
             "settings": {
-                "foreground": "#ebc17a",
+                "foreground": "#62bb8a",
                 "fontStyle": "bold"
             }
         },
@@ -446,7 +445,7 @@
                 "variable.other.property.js"
             ],
             "settings": {
-                "foreground": "#ebc17a",
+                "foreground": "#65bb62",
                 "fontStyle": "italic"
             }
         },
@@ -481,7 +480,8 @@
         {
             "name": "Magenta Italic",
             "scope": [
-                "variable.other.object.property"
+                "variable.other.object.property",
+                "entity.other.attribute-name.jsx"
             ],
             "settings": {
                 "foreground": "#b06698",
@@ -546,7 +546,7 @@
                 
             ],
             "settings": {
-                "foreground": "#8eac74",
+                "foreground": "#667c55",
                 "fontStyle": "italic"
             }
         },
