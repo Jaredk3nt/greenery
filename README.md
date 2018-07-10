@@ -1,4 +1,4 @@
-# Greenery
+<h1 align="center">Greenery</h1>
 <p align="center">  
   <a>
     <img src="https://vsmarketplacebadge.apphb.com/version-short/jaredkent.greenery.svg" alt="version"/>
