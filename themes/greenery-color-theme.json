@@ -133,7 +133,8 @@
                 "variable.language.self.js",
                 "meta.function.parameters.js",
                 "variable.parameter",
-                "markup.fenced_code.block.markdown"
+                "markup.fenced_code.block.markdown",
+                "variable.other.readwrite.global.special.perl"
             ],
             "settings": {
                 "foreground": "#769baa"
@@ -150,7 +151,8 @@
                 "entity.name.type.class.python",
                 "meta.class.python",
                 "entity.name.type.js",
-                "string.other.link.description.title.markdown"
+                "string.other.link.description.title.markdown",
+                "variable.other.readwrite.global.perl"
             ],
             "settings": {
                 "foreground": "#b06698"
@@ -258,7 +260,8 @@
                 "markup.heading",
                 "markup.inserted.git_gutter",
                 "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
-                "support.type.property-name.css"
+                "support.type.property-name.css",
+                "punctuation.definition.variable.perl"
             ],
             "settings": {
                 "foreground": "#adc586"
